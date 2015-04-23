@@ -1,11 +1,25 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Pong</title>
-  </head>
-  <body>
-    <canvas id="canvas" height="400" width="600"></canvas>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Pong</title>
+</head>
+
+<body>
+  <canvas id="canvas" height="400" width="600"></canvas>
+  <script src="lib/util.js"></script>
+  <script src="lib/moveable.js"></script>
+  <script src="lib/paddle.js"></script>
+  <script src="lib/player.js"></script>
+  <script src="lib/ai.js"></script>
+  <script src="lib/board.js"></script>
+  <script src="lib/game.js"></script>
+  <script type="text/javascript" charset="utf-8">
+    var game = new Pong.Game();
+    game.play()
+  </script>
+</body>
+
 </html>
