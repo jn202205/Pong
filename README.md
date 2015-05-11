@@ -5,3 +5,7 @@ Simple Javascript version of Pong
 
 * Use the up and down arrows to move the left paddle
 * Hitting the ball while moving the paddle wil cause the Y-velocity of the ball to change
+
+##[Play][1]
+
+[1]: http://jn202205.github.io/Pong/
